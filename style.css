@@ -1,0 +1,27 @@
+label, input:not([type=radio]):not([type=checkbox]){
+    display:block;
+}
+
+body{
+    background-image: url(fondo.jpg);
+}
+
+label, input[type=submit]{
+    margin-top: 20px;
+}
+
+label :first-of-type{
+    margin-top: 0;
+}
+
+input, select{
+    margin-top: 20px;
+}
+
+h1{
+    color:palevioletred;
+    text-align: center;
+    font-family: arial black;
+    font-size: 3em;
+    margin-bottom: 0%;
+}
